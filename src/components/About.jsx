@@ -65,19 +65,19 @@ const About = () => (
         <div data-aos="fade-left" className="space-y-6">
           <div className="flex items-center gap-3">
             <div className="h-px w-10" style={{ background: 'linear-gradient(90deg, #D4AF37, transparent)' }} />
-            <span className="mono text-xs tracking-[0.3em] uppercase text-[#D4AF37]">The Analyst Behind the Cases</span>
+            <span className="mono text-xs tracking-[0.3em] uppercase text-[#9a7b1f]">The Analyst Behind the Cases</span>
           </div>
 
-          <h2 style={{ fontFamily: 'Playfair Display, serif' }} className="text-5xl md:text-6xl font-black text-white leading-tight">
+          <h2 style={{ fontFamily: 'Playfair Display, serif' }} className="text-5xl md:text-6xl font-black text-slate-900 leading-tight">
             Hello, I'm <span className="text-gold-gradient">Sri Vidya</span>
           </h2>
 
-          <p className="text-white/55 leading-relaxed">
-            I'm a <span className="text-white/90 font-medium">Fraud Investigation Analyst with 5+ years of experience</span> protecting
+          <p className="text-slate-600 leading-relaxed">
+            I'm a <span className="text-slate-900 font-medium">Fraud Investigation Analyst with 5+ years of experience</span> protecting
             global payment ecosystems. As an SME on the Trust &amp; Safety Payments team at Cognizant (Google Pay), I lead
             Account Takeover investigations, run AML/KYC due diligence, and screen against OFAC, EU, UN &amp; HMT sanctions lists.
           </p>
-          <p className="text-white/45 leading-relaxed text-sm">
+          <p className="text-slate-500 leading-relaxed text-sm">
             Across engagements with PwC / USAA Bank, TCS / YouTube TV, Wipro, and UnitedHealth, I've mastered the full
             investigation lifecycle — transaction monitoring, EDD on high-risk PEPs, SAR/STR drafting, and regulatory escalation.
             Based in Hyderabad, India · open to remote / relocation.
@@ -87,7 +87,7 @@ const About = () => (
             {statusChips.map((c) => (
               <div key={c.tag} className="glass rounded-2xl p-3 text-center" style={{ borderColor: `${c.color}26` }}>
                 <p className="text-sm font-bold" style={{ color: c.color }}>{c.tag}</p>
-                <p className="mono text-[9px] text-white/40 mt-1 leading-tight">{c.label}</p>
+                <p className="mono text-[9px] text-slate-300 mt-1 leading-tight">{c.label}</p>
               </div>
             ))}
           </div>
