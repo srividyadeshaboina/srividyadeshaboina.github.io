@@ -13,7 +13,7 @@ const About = () => (
   <section id="about" className="py-28 relative overflow-hidden"
     style={{
       background:
-        'radial-gradient(circle at 18% 32%, rgba(212,175,55,0.12) 0%, transparent 34%), radial-gradient(circle at 82% 18%, rgba(96,165,250,0.14) 0%, transparent 30%), linear-gradient(180deg, #071328 0%, #0B2342 48%, #061C3A 100%)',
+        'linear-gradient(180deg, #F7E7CE 0%, #DBEAFE 34%, #EDE9FE 72%, #F8FAFC 100%)',
     }}>
 
     {/* ambient glows */}
