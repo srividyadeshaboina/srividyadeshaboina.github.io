@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
 import City from './components/City';
+import About from './components/About';
 import MissionATO from './components/MissionATO';
 import MissionAML from './components/MissionAML';
 import MissionSanctions from './components/MissionSanctions';
@@ -49,6 +50,7 @@ const App = () => {
       <Navbar />
       <main className="relative z-[2]">
         <City />
+        <About />
         <MissionATO />
         <MissionAML />
         <MissionSanctions />

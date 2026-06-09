@@ -82,3 +82,5 @@ npm run build     # production build
 - Contact section uses `mailto:` only — no backend form
 - HeroCanvas uses gold (#f59e0b) accents with AML/KYC compliance-themed labels
 - No profile photo yet — using placeholder emoji; replace when photo is available
+
+| 2026-06-09 | Added **About section** (Karthik-style layout, adapted to FRAUDVERSE dark/gold theme): photo ID card (srividya.png) with floating "5+ yrs" / "1000+ cases" chips + ONLINE status, "Hello, I'm Sri Vidya" heading, experience bio, 4 status chips (Investigated/Screened/Filed/Verified). Placed after City hero. Git author set to bangarikarthik11@gmail.com. Build passes ✅ |
