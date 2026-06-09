@@ -56,6 +56,18 @@ body {
   box-shadow: 0 12px 40px rgba(139,92,246,0.12);
 }
 
+#about .glass {
+  background: linear-gradient(145deg, rgba(15,23,42,0.9), rgba(30,41,59,0.72));
+  border: 1px solid rgba(212,175,55,0.28);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.1);
+}
+
+#about .glass-gold {
+  background: linear-gradient(135deg, rgba(212,175,55,0.22), rgba(15,23,42,0.84));
+  border: 1px solid rgba(212,175,55,0.48);
+  box-shadow: 0 18px 45px rgba(212,175,55,0.18), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
 /* ---- Glow ---- */
 .glow-gold { box-shadow: 0 0 0 1px rgba(212,175,55,0.3), 0 14px 50px rgba(212,175,55,0.3); }
 .glow-green { box-shadow: 0 10px 36px rgba(16,185,129,0.3); }
