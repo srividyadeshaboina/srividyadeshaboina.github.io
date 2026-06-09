@@ -11,7 +11,10 @@ const statusChips = [
 
 const About = () => (
   <section id="about" className="py-28 relative overflow-hidden"
-    style={{ background: 'linear-gradient(180deg, #020817 0%, #04142B 50%, #020817 100%)' }}>
+    style={{
+      background:
+        'radial-gradient(circle at 18% 32%, rgba(212,175,55,0.12) 0%, transparent 34%), radial-gradient(circle at 82% 18%, rgba(96,165,250,0.14) 0%, transparent 30%), linear-gradient(180deg, #071328 0%, #0B2342 48%, #061C3A 100%)',
+    }}>
 
     {/* ambient glows */}
     <div className="absolute top-1/3 -left-20 w-96 h-96 rounded-full pointer-events-none"
